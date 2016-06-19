@@ -8,5 +8,9 @@ for i in range(0,100):
     listofcounting[i]+=x
     #sj
 
-
+a=[]
+for i in range(0,100):
+    for j in range(0,listofcounting[i]):
+        a.append(i)
+print(" ".join(map(str,a)))
 
